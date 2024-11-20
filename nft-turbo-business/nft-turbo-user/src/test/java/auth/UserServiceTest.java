@@ -2,14 +2,14 @@ package auth;
 
 import java.util.UUID;
 
-import cn.hollis.nft.turbo.api.user.constant.UserStateEnum;
-import cn.hollis.nft.turbo.api.user.request.UserActiveRequest;
-import cn.hollis.nft.turbo.api.user.request.UserAuthRequest;
-import cn.hollis.nft.turbo.api.user.request.UserModifyRequest;
-import cn.hollis.nft.turbo.user.domain.entity.User;
-import cn.hollis.nft.turbo.user.domain.service.AuthServiceImpl;
-import cn.hollis.nft.turbo.user.domain.service.UserService;
-import cn.hollis.nft.turbo.user.infrastructure.mapper.UserMapper;
+import cn.lee.nft.turbo.api.user.constant.UserStateEnum;
+import cn.lee.nft.turbo.api.user.request.UserActiveRequest;
+import cn.lee.nft.turbo.api.user.request.UserAuthRequest;
+import cn.lee.nft.turbo.api.user.request.UserModifyRequest;
+import cn.lee.nft.turbo.user.domain.entity.User;
+import cn.lee.nft.turbo.user.domain.service.AuthServiceImpl;
+import cn.lee.nft.turbo.user.domain.service.UserService;
+import cn.lee.nft.turbo.user.infrastructure.mapper.UserMapper;
 import com.alibaba.fastjson2.JSON;
 
 import com.github.houbb.sensitive.core.api.SensitiveUtil;
@@ -24,7 +24,7 @@ import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
 /**
- * @author Hollis
+ * @author lee
  * <p>
  * 这里依赖缓存配置，先 ignore 掉，如果增加了 redis 配置之后，可以把redissonClient的 mock 移除，再去除 ignore 即可
  */

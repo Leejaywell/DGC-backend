@@ -1,7 +1,7 @@
 package pay;
 
-import cn.hollis.nft.turbo.limiter.SlidingWindowRateLimiter;
-import cn.hollis.nft.turbo.pay.NfTurboPayApplication;
+import cn.lee.nft.turbo.limiter.SlidingWindowRateLimiter;
+import cn.lee.nft.turbo.pay.NfTurboPayApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.redisson.api.RedissonClient;

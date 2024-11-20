@@ -1,6 +1,6 @@
 package auth;
 
-import cn.hollis.nft.turbo.user.NfTurboUserApplication;
+import cn.lee.nft.turbo.user.NfTurboUserApplication;
 import com.alicp.jetcache.CacheManager;
 import com.alicp.jetcache.redisson.RedissonCache;
 import com.alicp.jetcache.redisson.RedissonCacheConfig;
