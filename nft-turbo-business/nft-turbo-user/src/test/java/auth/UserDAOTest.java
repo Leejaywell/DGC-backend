@@ -1,9 +1,9 @@
 package auth;
 
-import cn.hollis.nft.turbo.user.domain.entity.User;
-import cn.hollis.nft.turbo.user.domain.entity.UserOperateStream;
-import cn.hollis.nft.turbo.user.infrastructure.mapper.UserMapper;
-import cn.hollis.nft.turbo.user.infrastructure.mapper.UserOperateStreamMapper;
+import cn.lee.nft.turbo.user.domain.entity.User;
+import cn.lee.nft.turbo.user.domain.entity.UserOperateStream;
+import cn.lee.nft.turbo.user.infrastructure.mapper.UserMapper;
+import cn.lee.nft.turbo.user.infrastructure.mapper.UserOperateStreamMapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.junit.Assert;
 import org.junit.Before;
