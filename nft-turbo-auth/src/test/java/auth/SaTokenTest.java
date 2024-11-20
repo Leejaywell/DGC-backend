@@ -1,7 +1,7 @@
 package auth;
 
 import cn.dev33.satoken.stp.StpUtil;
-import cn.hollis.nft.turbo.auth.NfTurboAuthApplication;
+import cn.lee.nft.turbo.auth.NfTurboAuthApplication;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

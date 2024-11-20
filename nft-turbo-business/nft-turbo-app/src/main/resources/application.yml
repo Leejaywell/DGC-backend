@@ -89,14 +89,14 @@ spring:
           turbo-complex-sharding:
             type: CLASS_BASED
             props:
-              algorithmClassName: cn.hollis.nft.turbo.datasource.sharding.algorithm.TurboKeyShardingAlgorithm
+              algorithmClassName: cn.lee.nft.turbo.datasource.sharding.algorithm.TurboKeyShardingAlgorithm
               strategy: complex
               tableCount: 4
               mainColum: buyer_id
           turbo-hint-sharding:
             type: CLASS_BASED
             props:
-              algorithmClassName: cn.hollis.nft.turbo.datasource.sharding.algorithm.TurboHintShardingAlgorithm
+              algorithmClassName: cn.lee.nft.turbo.datasource.sharding.algorithm.TurboHintShardingAlgorithm
               strategy: hint
         keyGenerators:
           snowflake:

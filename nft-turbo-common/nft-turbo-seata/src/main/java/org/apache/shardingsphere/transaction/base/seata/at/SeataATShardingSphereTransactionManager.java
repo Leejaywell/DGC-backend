@@ -27,7 +27,7 @@ import java.util.Map;
 /**
  * 为了解决在Seata+ShardingJDBC场景下，事务失效的问题
  *
- * @author Hollis
+ * @author lee
  */
 @SuppressWarnings("AlibabaClassNamingShouldBeCamel")
 public class SeataATShardingSphereTransactionManager implements ShardingSphereTransactionManager {
