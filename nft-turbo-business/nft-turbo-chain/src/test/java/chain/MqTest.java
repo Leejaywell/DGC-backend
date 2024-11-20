@@ -5,7 +5,7 @@ import java.util.Map;
 
 import com.alibaba.fastjson2.JSON;
 
-import cn.hollis.turbo.stream.producer.StreamProducer;
+import cn.lee.turbo.stream.producer.StreamProducer;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
