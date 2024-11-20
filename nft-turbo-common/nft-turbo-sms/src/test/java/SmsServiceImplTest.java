@@ -1,7 +1,7 @@
-import cn.hollis.nft.turbo.sms.MockSmsServiceImpl;
-import cn.hollis.nft.turbo.sms.SmsService;
-import cn.hollis.nft.turbo.sms.config.SmsConfiguration;
-import cn.hollis.nft.turbo.sms.response.SmsSendResponse;
+import cn.lee.nft.turbo.sms.MockSmsServiceImpl;
+import cn.lee.nft.turbo.sms.SmsService;
+import cn.lee.nft.turbo.sms.config.SmsConfiguration;
+import cn.lee.nft.turbo.sms.response.SmsSendResponse;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;

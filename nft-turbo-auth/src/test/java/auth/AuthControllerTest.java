@@ -1,7 +1,7 @@
 package auth;
 
-import cn.hollis.nft.turbo.auth.controller.AuthController;
-import cn.hollis.nft.turbo.auth.param.LoginParam;
+import cn.lee.nft.turbo.auth.controller.AuthController;
+import cn.lee.nft.turbo.auth.param.LoginParam;
 import com.alibaba.fastjson2.JSON;
 import org.hamcrest.core.Is;
 import org.junit.Test;
@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 /**
- * @author Hollis
+ * @author lee
  */
 @AutoConfigureMockMvc
 public class AuthControllerTest extends AuthBaseTest {
