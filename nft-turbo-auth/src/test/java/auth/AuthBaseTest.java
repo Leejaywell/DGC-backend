@@ -1,6 +1,6 @@
 package auth;
 
-import cn.hollis.nft.turbo.auth.NfTurboAuthApplication;
+import cn.lee.nft.turbo.auth.NfTurboAuthApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
